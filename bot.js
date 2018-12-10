@@ -3,9 +3,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(Logged in as ${client.user.tag}!);
 });
-
-
-const developers = ["هنا الايدي"]
+const developers = ["520547510444621824"]
 const adminprefix = "^";
 client.on('message', message => {
     var argresult = message.content.split().slice(1).join(' ');
