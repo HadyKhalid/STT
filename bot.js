@@ -3,8 +3,8 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(Logged in as ${client.user.tag}!);
 });
-const developers = ["520547510444621824"]
-const adminprefix = "1";
+const developers = ["442670807240671252"]
+const adminprefix = "*";
 client.on('message', message => {
     var argresult = message.content.split().slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -27,4 +27,4 @@ client.on('message', message => {
 }
 });
 
-client.login('NTIwNTQ3NTEwNDQ0NjIxODI0.Du8e5A.RxfpjAFRKpVE4CQS6MjRFiRC9CY');
+client.login('520349252434657328.bSWxJfkK2s8lxCzNKO49PJjveD4');
