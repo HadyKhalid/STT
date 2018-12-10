@@ -28,4 +28,4 @@ client.on('message', message => {
       message.channel.send(Status You ${argresult} `)
 }
 }); 
-client.login(process.env.NTIwNTQ3NTEwNDQ0NjIxODI0.Du8e5A.RxfpjAFRKpVE4CQS6MjRFiRC9CY);
+client.login(process.env.BOT_TOKEN);
