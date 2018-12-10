@@ -3,8 +3,8 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(Logged in as ${client.user.tag}!);
 });
-const developers = ["520547510444621824"]
-const adminprefix = "^";
+const developers = ["442670807240671252"]
+const adminprefix = "1";
 client.on('message', message => {
     var argresult = message.content.split().slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
